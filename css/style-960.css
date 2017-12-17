@@ -1,0 +1,206 @@
+
+/* ----------------------
+    Layout
+------------------------- */
+
+.wrap {
+  padding: 0;
+}
+
+/* -- Header -- */
+
+.header {
+  background: url(../images/background.jpg) top center no-repeat #000;
+}
+
+.header h1 {
+  display: inline-block;
+  font-family: 'Neo Sans W01', Arial, sans-serif;
+  font-size: 7em;
+}
+
+.header .description {
+  display: inline-block;
+  vertical-align: top;
+  width: 34%;
+  margin: 30px 0 70px 5%;
+}
+
+.event-details > li {
+  display: block;
+  float: left;
+  width: 26%;
+  margin: 0 0 0 3.125%;
+  padding-left: 5.2%;
+}
+
+.event-details > li:first-child {
+  margin-left: 0;
+}
+
+.event-details .title {
+  margin-left: -20%;
+}
+
+
+/* -- Notice -- */
+
+.notice {
+  text-align: left;
+}
+
+.notice p {
+  display: inline-block;
+  margin: 0 40px 0 0;
+  font-size: 1.375em;
+}
+
+.notice .button {
+  display: inline-block;
+}
+
+
+
+/* -- Speakers -- */
+
+.speaker {
+  display: block;
+  float: left;
+  width: 27%;
+  padding: 0 3.125%;
+  text-align: center;
+}
+
+.speaker .img-container {
+  display: inline-block;
+  float: none;
+  width: 150px;
+  height: 150px;
+  margin-right: 0;
+  -webkit-border-radius: 100px;
+          border-radius: 100px;
+}
+
+
+
+/* -- Keynote Speaker -- */
+
+.keynote-speaker .speaker {
+  display: block;
+  float: none;
+  width: 83%;
+  margin: 40px auto;
+  text-align: left;
+}
+
+.keynote-speaker .speaker .img-container {
+  float: left;
+}
+
+.keynote-speaker .details, .keynote-speaker .description {
+  clear: none;
+  float: right;
+  width: 75%;
+}
+
+
+/* -- Tickets -- */
+
+.ticket-options {
+  margin-bottom: 85px;
+}
+
+.ticket-options .option {
+  float: left;
+  width: 20.25%;
+  margin-bottom: 0;
+  padding: 0 2.34375%;
+  text-align: center;
+}
+
+.ticket-options .name, .ticket-options .description, .ticket-options .price {
+  float: none;
+}
+
+.ticket-options .name, .ticket-options .description {
+  width: 100%;
+  margin-right: 0;
+}
+
+.ticket-options .name {
+  margin-bottom: 20px;
+  min-height: 66px;
+}
+
+.ticket-options .description {
+  margin-bottom: 55px;
+  min-height: 100px;
+}
+
+.ticket-options .price {
+  top: auto;
+  font-size: 4.5em;
+}
+
+.price .currency {
+  top: -38px;
+  font-size: 0.3em;
+}
+
+/* -- In-Kind Sponsor -- */
+
+.inkind-sponsor {
+  text-align: left;
+}
+
+.inkind-sponsor .logo {
+  float: left;
+  margin-right: 60px;
+}
+
+.inkind-sponsor .details {
+  float: left;
+  width: 70%;
+}
+
+
+/* -- Contact -- */
+
+.contact .section-title {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 40px 0 0;
+}
+
+.contact ul {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+  text-align: left;
+}
+
+.contact li {
+  display: inline-block;
+  margin: 0 40px 20px 0;
+}
+
+
+/* -- Footer -- */
+
+.footer .image-credit {
+  float: left;
+}
+
+.footer .the-cut {
+  float: right;
+}
+
+
+/* -- Retina BG for Tablets -- */
+
+@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px) {
+  .header {
+    background-image: url(../images/background.jpg);
+    background-size: 100%;
+  }
+}
