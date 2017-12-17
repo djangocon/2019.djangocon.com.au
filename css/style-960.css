@@ -15,7 +15,7 @@
 
 .header h1 {
   display: inline-block;
-  font-family: 'Neo Sans W01', Arial, sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-size: 7em;
 }
 
@@ -71,6 +71,10 @@
   text-align: center;
 }
 
+.speaker#speaker-seven {
+  padding-left: 370px;
+}
+
 .speaker .img-container {
   display: inline-block;
   float: none;
@@ -81,8 +85,14 @@
           border-radius: 100px;
 }
 
+.speaker .details {
+  /* float: right; */
+ margin-left: 0px;
+}
 
-
+.speaker .description{
+  margin-left: 0px;
+}
 /* -- Keynote Speaker -- */
 
 .keynote-speaker .speaker {

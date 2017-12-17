@@ -88,7 +88,7 @@ blockquote, q {
 /* Headings */
 
 h1, h2, h3 {
-  font-family: 'Neo Sans W01 Medium', Arial, sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   color: #fff;
 }
 
@@ -104,7 +104,7 @@ h2 {
 /* Paragraphs, Links, List Items */
 
 p, a, li {
-  font-family: 'Neo Sans W01', Arial, sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-size: 1em;
   line-height: 1.5;
   color: #ccc;
@@ -137,7 +137,7 @@ a:hover, a:focus {
 .title {
   display: block;
   margin-bottom: 10px;
-  font-family: 'Neo Sans W01 Medium', Arial, sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-size: 1.375em;
   color: #fff;
 }
@@ -152,14 +152,14 @@ a:hover, a:focus {
 .name {
   display: block;
   color: #7cba2a;
-  font-family: 'Neo Sans W01 Medium', Arial, sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-size: 1.375em;
 }
 
 .social-handle {
   display: block;
   margin-bottom: 10px;
-  font-family: 'Neo Sans W01', Arial, sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   text-decoration: none;
 }
 
@@ -167,7 +167,7 @@ a:hover, a:focus {
   display: block;
   /*margin-bottom: 15px;*/
   color: #ff006c;
-  font-family: 'Neo Sans W01', Arial, sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 .description {
@@ -210,7 +210,7 @@ body {
 
 .wrap {
   width: 90%;
-  max-width: 960px;
+  max-width: 1024px;
   padding: 0 5%;
   margin: 0 auto;
 }
@@ -230,7 +230,7 @@ body {
 .header h1 span {
   display: block;
   margin-top: 10px;
-  font-family: 'Neo Sans W01 Light', Arial, sans-serif;
+  font-family: 'Droid Sans', sans-serif;
 }
 
 .header .description {
@@ -334,13 +334,12 @@ body {
 }
 
 .speaker {
-  display: inline-block;
+  display: block;
   margin-bottom: 60px;
 }
 
 .speaker .img-container {
   float: left;
-  /*overflow: hidden;*/
   width: 100px;
   height: 100px;
   margin-right: 20px;
@@ -350,36 +349,34 @@ body {
 .speaker .img-container img {
   width: 100%;
   align: center;
-  /*-webkit-transition: all 0.3s ease-in-out;
-     -moz-transition: all 0.3s ease-in-out;
-      -ms-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out;*/
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
      -moz-transition:    -moz-transform 0.3s ease-in-out;
       -ms-transition:     -ms-transform 0.3s ease-in-out;
           transition:         transform 0.3s ease-in-out;
   -webkit-border-radius: 100px;
           border-radius: 100px;
+  filter: grayscale(1);
 }
 
 .speaker:hover .img-container img {
-  /*width: 108.55%;
-  -webkit-backface-visibility: hidden;*/
   -webkit-transform: scale(1.0667);
      -moz-transform: scale(1.0667);
       -ms-transform: scale(1.0667);
           transform: scale(1.0667);
+  filter: grayscale(0);
 }
 
 
 .speaker .details {
-  /*float: left;*/
+  display: block;
+  margin-left: 120px;
 }
 
 .speaker .description {
   clear: both;
   float: none;
   margin: 15px 0;
+  margin-left: 120px;
 }
 
 
@@ -414,7 +411,7 @@ body {
   float: right;
   width: 35%;
   color: #fff;
-  font-family: 'Neo Sans W01 Light', Arial, sans-serif;
+  font-family: 'Droid Sans', sans-serif;
   font-size: 2.5em;
   line-height: 1;
   text-align: right;
