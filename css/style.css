@@ -107,7 +107,7 @@ p, a, li {
   font-family: 'Droid Sans', sans-serif;
   font-size: 1em;
   line-height: 1.5;
-  color: #ccc;
+  color: #fff;
 }
 
 p {
@@ -231,6 +231,14 @@ body {
   display: block;
   margin-top: 10px;
   font-family: 'Droid Sans', sans-serif;
+}
+
+.header p, .header a, .header li {
+  text-shadow: 0px 0px 2px #000;
+}
+
+.header a {
+  color: #fff;
 }
 
 .header .description {
