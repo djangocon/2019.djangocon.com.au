@@ -220,7 +220,8 @@ body {
 .header {
   background: #000;
   padding: 50px 0;
-  background: url(../images/background.jpg) top center no-repeat #000;
+  background: url(../images/background.jpg) bottom left no-repeat #000;
+  background-size: cover;
 }
 
 .header h1 {
@@ -500,11 +501,6 @@ body {
 /* -- Retina Styles -- */
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-
-  .header {
-    background-image: url(../images/background.jpg);
-    background-size: 1024px;
-  }
 
   .dates .title:before {
     background-image: url(../images/time-icon-2x.png);
