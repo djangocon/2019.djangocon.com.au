@@ -10,7 +10,8 @@
 /* -- Header -- */
 
 .header {
-  background: url(../images/background.jpg) top center no-repeat #000;
+  background: url(../images/background.jpg) bottom left no-repeat #000;
+  background-size: cover;
 }
 
 .header h1 {
@@ -203,14 +204,4 @@
 
 .footer .the-cut {
   float: right;
-}
-
-
-/* -- Retina BG for Tablets -- */
-
-@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px) {
-  .header {
-    background-image: url(../images/background.jpg);
-    background-size: 100%;
-  }
 }
