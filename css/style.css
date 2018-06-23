@@ -338,6 +338,10 @@ body {
   background: #181a17;
 }
 
+.speakers .speaker-list li:nth-of-type(3n+1) {
+  clear: both;
+}
+
 .speaker-list {/*
   text-align: center;*/
 }
