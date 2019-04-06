@@ -520,9 +520,9 @@ body {
 
 }
 
-/* -- Temporary Spreadshirt banner -- */
+/* -- Banner -- */
 
-.spreadshirt-banner {
+.banner {
   background-color: #02A0BC;
   color: white;
   font-size: 1.2em;
@@ -531,7 +531,7 @@ body {
   padding: 0.5em 2em;
 }
 
-.spreadshirt-banner a {
+.banner a {
   color: inherit;
   font-weight: inherit;
 }
